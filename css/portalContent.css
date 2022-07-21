@@ -1,0 +1,276 @@
+#portalContent {
+    width: 100%;
+    height: 100%;
+}
+
+.anaContent-container {
+    width: 100%;
+    height: 100%;
+}
+
+.anaContent-header {
+    width: 100%;
+    height: 10%;
+}
+
+.anaContent-header-container {
+    width: 100%;
+    height: 100%;
+}
+
+.anaContent-header-row {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.anaContent-header-left {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.anaContent-header-left span {
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+
+/* Button hover code Area start in the Here */
+
+.buttons {
+    text-align: center;
+}
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    height: 45px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-9 {
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+
+
+
+/* Button hover code Area End of the Here */
+
+
+
+.anaContent-header-right {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.anaContent-header-info {
+    width: 70%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.anaContent-header-right ul {
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.anaContent-header-right ul li {
+    height: 100%;
+    display: flex;
+    list-style-type: none;
+
+}
+.anaContent-header-right ul li img {
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.anaContent-header-right ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: #18aaeb;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.info span {
+    padding-right: 10px;
+}
+
+.info i {
+    font-size: 1px !important;
+    position: relative;
+}
+
+.dot::after {
+    content: "";
+    background-color: red;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+
+.info-section10 {
+    position: absolute;
+    top: 7%;
+    right: 1%;
+    width: 170px;
+    height: 250px;
+    background-color: rgba(238, 238, 238, 0.576);
+    border-radius: 5px;
+    z-index: 9999;
+   
+}
+
+
+.info-section-container {
+    width: 100%;
+    height: 100%;
+
+}
+
+.info-section-container ul {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+}
+
+.info-section-container ul li{
+    list-style-type: none;
+    width: 95%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+
+}
+
+.info-section-container ul li a{
+    text-decoration: none;
+}
+
+
+
+.info-section-container ul li:hover::before {
+    content: "";
+    width: 95%;
+    height: 40px;
+    background-color: #2e93bb;
+    border-radius: 50px;
+    color: white;
+
+    position: absolute;
+    left: 2%;
+    opacity: 0.2;
+
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+
+}
+
+
+
+/* -------------------------------------------------------------------------------- */
+
+/* Katalog Sayfa Content Section Code Area Start in the Here */
+
+.portalContent-section {
+    width: 100%;
+    height: 20%;
+}
+
+.portalContent-section-container{
+    width: 100%;
+    height: 100%;
+}
+
+.portalContent-section-row{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    position: relative;
+    top: 25%;
+}
+.col-leftPortal-icon {
+    width: 60px;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: relative;
+    border-radius: 20%;
+    left: -2%;
+}
+
+.col-leftPortal {
+    width: 20%;
+    height: 100%;
+    z-index: 9999999;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -20px;
+    right: 5%;
+}
+.col-right{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Katalog Sayfa Content Section Code Area End of the Here */
+
+/* ------------------------------------------------------------------------------- */

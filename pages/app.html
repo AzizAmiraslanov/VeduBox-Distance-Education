@@ -1,0 +1,1269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/app.css">
+    <link rel="stylesheet" href="../css/anaContent.css">
+    <link rel="stylesheet" href="../css/profContent.css">
+    <link rel="stylesheet" href="../css/egitContent.css">
+    <link rel="stylesheet" href="../css/canliContent.css">
+    <link rel="stylesheet" href="../css/sinavContent.css">
+    <link rel="stylesheet" href="../css/kutupContent.css">
+    <link rel="stylesheet" href="../css/catalContent.css">
+    <link rel="stylesheet" href="../css/blogContent.css">
+    <link rel="stylesheet" href="../css/sosyalContent.css">
+    <link rel="stylesheet" href="../css/portalContent.css">
+
+    <link rel="stylesheet" href="../Fontawesome/all.css">
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&family=Poppins:wght@100;500&display=swap"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap" rel="stylesheet">
+    <title>Vedubox</title>
+</head>
+
+<body onload="onloadpage()">
+
+    <div class="app">
+        <div class="app-container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="app-logo">
+                        <img src="../images/vedubox-logo-white.png" alt="">
+                    </div>
+                    <div class="app-navbar">
+                        <ul>
+                            <li id="anaClick" class="btnn activee" onclick="anaClick()">
+                                <i class="fas fa-home"></i>
+                                <a href="#">
+                                    <span>Ana Sayfa</span>
+                                </a>
+                            </li>
+                            <li id="profClick" class="btnn" onclick="profClick()">
+                                <i class="fa-solid fa-user"></i>
+                                <a href="#">
+                                    <span>Profil</span>
+                                </a>
+                            </li>
+                            <li id="egitClick" class="btnn" onclick="egitClick()">
+                                <i class="fa-solid fa-building-columns"></i>
+                                <a href="#">
+                                    <span>Eğitimler</span>
+                                </a>
+                            </li>
+                            <li id="canliClick" class="btnn" onclick="canliClick()">
+                                <i class="fa-solid fa-podcast"></i>
+                                <a href="#">
+                                    <span>Canlı</span>
+
+                                </a>
+                            </li>
+                            <li id="sinavClick" class="btnn" onclick="sinavClick()">
+                                <i class="fa-solid fa-anchor"></i>
+                                <a href="#">
+                                    <span>Sınavlar</span>
+
+                                </a>
+                            </li>
+                            <li id="kutupClick" class="btnn" onclick="kutupClick()">
+                                <i class="fa-solid fa-book-bookmark"></i>
+                                <a href="#">
+                                    <span>Kütüphane</span>
+
+                                </a>
+                            </li>
+                            <li id="catalClick" class="btnn" onclick="catalClick()">
+                                <i class="fa-brands fa-alipay"></i>
+                                <a href="#">
+                                    <span>Katalog</span>
+
+                                </a>
+                            </li>
+                            <li id="blogClick" class="btnn" onclick="blogClick()">
+                                <i class="fa-solid fa-blog"></i>
+                                <a href="#">
+                                    <span>Blog</span>
+
+                                </a>
+                            </li>
+                            <li id="sosyalClick" class="btnn" onclick="sosyalClick()">
+                                <i class="fa-solid fa-user-group"></i>
+                                <a href="#">
+                                    <span>Sosyal</span>
+
+                                </a>
+                            </li>
+                            <li id="portalClick" class="btnn" onclick="portalClick()">
+                                <i class="fa-brands fa-angular"></i>
+                                <a href="#">
+                                    <span>Portal</span>
+
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div id="anaContent" class="display">
+                        <div class="anaContent-container">
+
+                            <div class="anaContent-header">
+                                <div class="anaContent-header-container">
+                                    <div class="anaContent-header-row">
+                                        <div class="anaContent-header-left">
+                                            <span>Sistemi Yakından İncele</span>
+                                            <div class="buttons">
+                                                <button class="btn-hover color-9">
+                                                    Hemen Keşfet
+                                                    <i class="fa-solid fa-right-long"></i>
+                                                </button>
+
+
+                                            </div>
+
+                                        </div>
+                                        <div class="anaContent-header-right">
+                                            <div class="anaContent-header-info">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="dot">
+                                                            <i class="fa-regular fa-bell"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="dot">
+                                                            <i class="fa-regular fa-message"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="../images/3x4.jpg" alt="">
+                                                        </a>
+                                                    </li>
+                                                    <li onclick="infoViewAna()">
+                                                        <a href="#" class="info">
+                                                            <span>Aziz Amiraslanov</span>
+                                                            <i class="fa-solid fa-chevron-down"></i>
+                                                        </a>
+                                                    </li>
+
+                                                    <div class="info-section">
+                                                        <div class="info-section-container">
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Profil
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        History
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Result
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Exam
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Settings
+                                                                    </a>
+                                                                </li>
+                                                                <li class="exitBtn" onclick="exit()">
+                                                                    <a href="#">
+                                                                        Exit
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="anaContent-section">
+                                <div class="anaContent-section-container">
+                                    <div class="anaContent-section-row">
+                                        <div class="col-leftAna">
+                                            <div class="col-leftAna-icon">
+                                                <i class="fas fa-home"></i>
+                                            </div>
+                                            <h3 id="secHeaderAnaSayfa"></h3>
+                                        </div>
+                                        <div class="col-right">
+                                            <div class="col-right-container">
+                                                <div class="col-right-row">
+                                                    <ul>
+                                                        <li class="col-right-row-active">
+                                                            <a href="#">Genel Bakış</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">İlerleme</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Takvim</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="scroll-area">
+                                <div class="anaContent-news">
+                                    <div class="news-img">
+                                        <img src="../images/1111111.png" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="anaContent-main">
+                                    <div class="anaContent-main-container">
+                                        <div class="anaContent-main-row">
+                                            <div class="anaContent-main-left">
+                                                <div class="main-left-container">
+                                                    <div class="main-left-row">
+                                                        <div class="hap">
+                                                            <div class="hap-header">
+                                                                <span>Hap Öğrenme</span>
+                                                            </div>
+                                                            <div class="hap-content">
+                                                                <h3>Linux yada Windows hangisi daha iyi?</h3>
+                                                                <button class="btn-hover color-9 btn-hap"
+                                                                    type="submit">Hemen Öğren</button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="duyurular">
+                                                            <div class="duyurular-header">
+                                                                <span>Duyurular</span>
+                                                            </div>
+                                                            <div class="duyurular-content">
+
+                                                                <span>Yarin saat 14:00 da toplanti odasinda Vedubox ile toplanti olacaq. Katiliminiz Zorunludur</span>
+                                                                <button class="btn-hover color-9 btn-duyurular"
+                                                                    type="submit">Hemen Katıl</button>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="anaContent-main-right">
+                                                <div class="main-right-container">
+                                                    <div class="main-right-row">
+                                                        <div class="daily-news">
+                                                            <div class="daily-news-header">
+                                                                <span>Günlük Bilgilendirme</span>
+                                                            </div>
+                                                            <div class="daily-news-content">
+                                                                <img src="../images/Ataturk.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="profContent" class="display">
+                        <div class="anaContent-container">
+                            <div class="anaContent-header">
+                                <div class="anaContent-header-container">
+                                    <div class="anaContent-header-row">
+                                        <div class="anaContent-header-left">
+                                            <span>Sistemi Yakından İncele</span>
+                                            <div class="buttons">
+                                                <button class="btn-hover color-9">
+                                                    Hemen Keşfet
+                                                    <i class="fa-solid fa-right-long"></i>
+                                                </button>
+
+
+                                            </div>
+
+                                        </div>
+                                        <div class="anaContent-header-right">
+                                            <div class="anaContent-header-info">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="dot">
+                                                            <i class="fa-regular fa-bell"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="dot">
+                                                            <i class="fa-regular fa-message"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="../images/3x4.jpg" alt="">
+                                                        </a>
+                                                    </li>
+                                                    <li onclick="infoViewProf()">
+                                                        <a href="#" class="info">
+                                                            <span>Aziz Amiraslanov</span>
+                                                            <i class="fa-solid fa-chevron-down"></i>
+                                                        </a>
+                                                    </li>
+
+                                                    <div class="info-section2">
+                                                        <div class="info-section-container">
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Profil
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        History
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Result
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Exam
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Settings
+                                                                    </a>
+                                                                </li>
+                                                                <li class="exitBtn2" onclick="exitProf()">
+                                                                    <a href="#">
+                                                                        Exit
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="profContent-section">
+                                <div class="profContent-section-container">
+                                    <div class="profContent-section-row">
+                                        <div class="col-leftProf">
+                                            <div class="col-leftProf-icon">
+                                                <i class="fa-solid fa-user"></i>
+                                            </div>
+                                            <h3 id="secHeaderProf"></h3>
+                                        </div>
+                                        <div class="col-right">aaaaa</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="anaContent-news"></div>
+                            <div class="anaContent-main"></div>
+                        </div>
+
+
+                    </div>
+                    <div id="egitContent" class="display">
+                        <div class="anaContent-container">
+                            <div class="anaContent-header">
+                                <div class="anaContent-header-container">
+                                    <div class="anaContent-header-row">
+                                        <div class="anaContent-header-left">
+                                            <span>Sistemi Yakından İncele</span>
+                                            <div class="buttons">
+                                                <button class="btn-hover color-9">
+                                                    Hemen Keşfet
+                                                    <i class="fa-solid fa-right-long"></i>
+                                                </button>
+
+
+                                            </div>
+
+                                        </div>
+                                        <div class="anaContent-header-right">
+                                            <div class="anaContent-header-info">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="dot">
+                                                            <i class="fa-regular fa-bell"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="dot">
+                                                            <i class="fa-regular fa-message"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="../images/3x4.jpg" alt="">
+                                                        </a>
+                                                    </li>
+                                                    <li onclick="infoViewEgit()">
+                                                        <a href="#" class="info">
+                                                            <span>Aziz Amiraslanov</span>
+                                                            <i class="fa-solid fa-chevron-down"></i>
+                                                        </a>
+                                                    </li>
+
+                                                    <div class="info-section3">
+                                                        <div class="info-section-container">
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Profil
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        History
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Result
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Exam
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Settings
+                                                                    </a>
+                                                                </li>
+                                                                <li class="exitBtn3" onclick="exitEgit()">
+                                                                    <a href="#">
+                                                                        Exit
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="egitContent-section">
+                                <div class="egitContent-section-container">
+                                    <div class="egitContent-section-row">
+                                        <div class="col-leftEgit">
+                                            <div class="col-leftEgit-icon">
+                                                <i class="fa-solid fa-building-columns"></i>
+                                            </div>
+                                            <h3 id="secHeaderEgit"></h3>
+                                        </div>
+                                        <div class="col-right">aaaaa</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="anaContent-news"></div>
+                            <div class="anaContent-main"></div>
+                        </div>
+                    </div>
+                    <div id="canliContent" class="display">
+                        <div class="anaContent-container">
+                            <div class="anaContent-header">
+                                <div class="anaContent-header-container">
+                                    <div class="anaContent-header-row">
+                                        <div class="anaContent-header-left">
+                                            <span>Sistemi Yakından İncele</span>
+                                            <div class="buttons">
+                                                <button class="btn-hover color-9">
+                                                    Hemen Keşfet
+                                                    <i class="fa-solid fa-right-long"></i>
+                                                </button>
+
+
+                                            </div>
+
+                                        </div>
+                                        <div class="anaContent-header-right">
+                                            <div class="anaContent-header-info">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="dot">
+                                                            <i class="fa-regular fa-bell"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="dot">
+                                                            <i class="fa-regular fa-message"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="../images/3x4.jpg" alt="">
+                                                        </a>
+                                                    </li>
+                                                    <li onclick="infoViewCanli()">
+                                                        <a href="#" class="info">
+                                                            <span>Aziz Amiraslanov</span>
+                                                            <i class="fa-solid fa-chevron-down"></i>
+                                                        </a>
+                                                    </li>
+
+                                                    <div class="info-section4">
+                                                        <div class="info-section-container">
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Profil
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        History
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Result
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Exam
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Settings
+                                                                    </a>
+                                                                </li>
+                                                                <li class="exitBtn4" onclick="exitCanli()">
+                                                                    <a href="#">
+                                                                        Exit
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="canliContent-section">
+                                <div class="canliContent-section-container">
+                                    <div class="canliContent-section-row">
+                                        <div class="col-leftCanli">
+                                            <div class="col-leftCanli-icon">
+                                                <i class="fa-solid fa-podcast"></i>
+                                            </div>
+                                            <h3 id="secHeaderCanli"></h3>
+                                        </div>
+                                        <div class="col-right">aaaaa</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="anaContent-news"></div>
+                            <div class="anaContent-main"></div>
+                        </div>
+                    </div>
+                    <div id="sinavContent" class="display">
+                        <div class="anaContent-container">
+                            <div class="anaContent-header">
+                                <div class="anaContent-header-container">
+                                    <div class="anaContent-header-row">
+                                        <div class="anaContent-header-left">
+                                            <span>Sistemi Yakından İncele</span>
+                                            <div class="buttons">
+                                                <button class="btn-hover color-9">
+                                                    Hemen Keşfet
+                                                    <i class="fa-solid fa-right-long"></i>
+                                                </button>
+
+
+                                            </div>
+
+                                        </div>
+                                        <div class="anaContent-header-right">
+                                            <div class="anaContent-header-info">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="dot">
+                                                            <i class="fa-regular fa-bell"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="dot">
+                                                            <i class="fa-regular fa-message"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="../images/3x4.jpg" alt="">
+                                                        </a>
+                                                    </li>
+                                                    <li onclick="infoViewSinav()">
+                                                        <a href="#" class="info">
+                                                            <span>Aziz Amiraslanov</span>
+                                                            <i class="fa-solid fa-chevron-down"></i>
+                                                        </a>
+                                                    </li>
+
+                                                    <div class="info-section5">
+                                                        <div class="info-section-container">
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Profil
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        History
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Result
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Exam
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Settings
+                                                                    </a>
+                                                                </li>
+                                                                <li class="exitBtn5" onclick="exitSinav()">
+                                                                    <a href="#">
+                                                                        Exit
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sinavContent-section">
+                                <div class="sinavContent-section-container">
+                                    <div class="sinavContent-section-row">
+                                        <div class="col-leftSinav">
+                                            <div class="col-leftSinav-icon">
+                                                <i class="fa-solid fa-anchor"></i>
+                                            </div>
+                                            <h3 id="secHeaderSinav"></h3>
+                                        </div>
+                                        <div class="col-right">aaaaa</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="anaContent-news"></div>
+                            <div class="anaContent-main"></div>
+                        </div>
+                    </div>
+                    <div id="kutupContent" class="display">
+                        <div class="anaContent-container">
+                            <div class="anaContent-header">
+                                <div class="anaContent-header-container">
+                                    <div class="anaContent-header-row">
+                                        <div class="anaContent-header-left">
+                                            <span>Sistemi Yakından İncele</span>
+                                            <div class="buttons">
+                                                <button class="btn-hover color-9">
+                                                    Hemen Keşfet
+                                                    <i class="fa-solid fa-right-long"></i>
+                                                </button>
+
+
+                                            </div>
+
+                                        </div>
+                                        <div class="anaContent-header-right">
+                                            <div class="anaContent-header-info">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="dot">
+                                                            <i class="fa-regular fa-bell"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="dot">
+                                                            <i class="fa-regular fa-message"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="../images/3x4.jpg" alt="">
+                                                        </a>
+                                                    </li>
+                                                    <li onclick="infoViewKutuphane()">
+                                                        <a href="#" class="info">
+                                                            <span>Aziz Amiraslanov</span>
+                                                            <i class="fa-solid fa-chevron-down"></i>
+                                                        </a>
+                                                    </li>
+
+                                                    <div class="info-section6">
+                                                        <div class="info-section-container">
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Profil
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        History
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Result
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Exam
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Settings
+                                                                    </a>
+                                                                </li>
+                                                                <li class="exitBtn6" onclick="exitKutuphane()">
+                                                                    <a href="#">
+                                                                        Exit
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="kutupContent-section">
+                                <div class="kutupContent-section-container">
+                                    <div class="kutupContent-section-row">
+                                        <div class="col-leftKutup">
+                                            <div class="col-leftKutup-icon">
+                                                <i class="fa-solid fa-book-bookmark"></i>
+                                            </div>
+                                            <h3 id="secHeaderKutup"></h3>
+                                        </div>
+                                        <div class="col-right">aaaaa</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="anaContent-news"></div>
+                            <div class="anaContent-main"></div>
+                        </div>
+                    </div>
+                    <div id="catalContent" class="display">
+                        <div class="anaContent-container">
+                            <div class="anaContent-header">
+                                <div class="anaContent-header-container">
+                                    <div class="anaContent-header-row">
+                                        <div class="anaContent-header-left">
+                                            <span>Sistemi Yakından İncele</span>
+                                            <div class="buttons">
+                                                <button class="btn-hover color-9">
+                                                    Hemen Keşfet
+                                                    <i class="fa-solid fa-right-long"></i>
+                                                </button>
+
+
+                                            </div>
+
+                                        </div>
+                                        <div class="anaContent-header-right">
+                                            <div class="anaContent-header-info">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="dot">
+                                                            <i class="fa-regular fa-bell"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="dot">
+                                                            <i class="fa-regular fa-message"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="../images/3x4.jpg" alt="">
+                                                        </a>
+                                                    </li>
+                                                    <li onclick="infoViewCatalog()">
+                                                        <a href="#" class="info">
+                                                            <span>Aziz Amiraslanov</span>
+                                                            <i class="fa-solid fa-chevron-down"></i>
+                                                        </a>
+                                                    </li>
+
+                                                    <div class="info-section7">
+                                                        <div class="info-section-container">
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Profil
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        History
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Result
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Exam
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Settings
+                                                                    </a>
+                                                                </li>
+                                                                <li class="exitBtn7" onclick="exitCatalog()">
+                                                                    <a href="#">
+                                                                        Exit
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="catalContent-section">
+                                <div class="catalContent-section-container">
+                                    <div class="catalContent-section-row">
+                                        <div class="col-leftCatal">
+                                            <div class="col-leftCatal-icon">
+                                                <i class="fa-brands fa-alipay"></i>
+                                            </div>
+                                            <h3 id="secHeaderCatal"></h3>
+                                        </div>
+                                        <div class="col-right">aaaaa</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="anaContent-news"></div>
+                            <div class="anaContent-main"></div>
+                        </div>
+                    </div>
+                    <div id="blogContent" class="display">
+                        <div class="anaContent-container">
+                            <div class="anaContent-header">
+                                <div class="anaContent-header-container">
+                                    <div class="anaContent-header-row">
+                                        <div class="anaContent-header-left">
+                                            <span>Sistemi Yakından İncele</span>
+                                            <div class="buttons">
+                                                <button class="btn-hover color-9">
+                                                    Hemen Keşfet
+                                                    <i class="fa-solid fa-right-long"></i>
+                                                </button>
+
+
+                                            </div>
+
+                                        </div>
+                                        <div class="anaContent-header-right">
+                                            <div class="anaContent-header-info">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="dot">
+                                                            <i class="fa-regular fa-bell"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="dot">
+                                                            <i class="fa-regular fa-message"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="../images/3x4.jpg" alt="">
+                                                        </a>
+                                                    </li>
+                                                    <li onclick="infoViewBlog()">
+                                                        <a href="#" class="info">
+                                                            <span>Aziz Amiraslanov</span>
+                                                            <i class="fa-solid fa-chevron-down"></i>
+                                                        </a>
+                                                    </li>
+
+                                                    <div class="info-section8">
+                                                        <div class="info-section-container">
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Profil
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        History
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Result
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Exam
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Settings
+                                                                    </a>
+                                                                </li>
+                                                                <li class="exitBtn8" onclick="exitBlog()">
+                                                                    <a href="#">
+                                                                        Exit
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blogContent-section">
+                                <div class="blogContent-section-container">
+                                    <div class="blogContent-section-row">
+                                        <div class="col-leftBlog">
+                                            <div class="col-leftBlog-icon">
+                                                <i class="fa-solid fa-blog"></i>
+                                            </div>
+                                            <h3 id="secHeaderBlog"></h3>
+                                        </div>
+                                        <div class="col-right">aaaaa</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="anaContent-news"></div>
+                            <div class="anaContent-main"></div>
+                        </div>
+                    </div>
+                    <div id="sosyalContent" class="display">
+                        <div class="anaContent-container">
+                            <div class="anaContent-header">
+                                <div class="anaContent-header-container">
+                                    <div class="anaContent-header-row">
+                                        <div class="anaContent-header-left">
+                                            <span>Sistemi Yakından İncele</span>
+                                            <div class="buttons">
+                                                <button class="btn-hover color-9">
+                                                    Hemen Keşfet
+                                                    <i class="fa-solid fa-right-long"></i>
+                                                </button>
+
+
+                                            </div>
+
+                                        </div>
+                                        <div class="anaContent-header-right">
+                                            <div class="anaContent-header-info">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="dot">
+                                                            <i class="fa-regular fa-bell"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="dot">
+                                                            <i class="fa-regular fa-message"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="../images/3x4.jpg" alt="">
+                                                        </a>
+                                                    </li>
+                                                    <li onclick="infoViewSosyal()">
+                                                        <a href="#" class="info">
+                                                            <span>Aziz Amiraslanov</span>
+                                                            <i class="fa-solid fa-chevron-down"></i>
+                                                        </a>
+                                                    </li>
+
+                                                    <div class="info-section9">
+                                                        <div class="info-section-container">
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Profil
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        History
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Result
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Exam
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Settings
+                                                                    </a>
+                                                                </li>
+                                                                <li class="exitBtn9" onclick="exitSosyal()">
+                                                                    <a href="#">
+                                                                        Exit
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sosyalContent-section">
+                                <div class="sosyalContent-section-container">
+                                    <div class="sosyalContent-section-row">
+                                        <div class="col-leftSosyal">
+                                            <div class="col-leftSosyal-icon">
+                                                <i class="fa-solid fa-user-group"></i>
+                                            </div>
+                                            <h3 id="secHeaderSosyal"></h3>
+                                        </div>
+                                        <div class="col-right">aaaaa</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="anaContent-news"></div>
+                            <div class="anaContent-main"></div>
+                        </div>
+                    </div>
+                    <div id="portalContent" class="display">
+                        <div class="anaContent-container">
+                            <div class="anaContent-header">
+                                <div class="anaContent-header-container">
+                                    <div class="anaContent-header-row">
+                                        <div class="anaContent-header-left">
+                                            <span>Sistemi Yakından İncele</span>
+                                            <div class="buttons">
+                                                <button class="btn-hover color-9">
+                                                    Hemen Keşfet
+                                                    <i class="fa-solid fa-right-long"></i>
+                                                </button>
+
+
+                                            </div>
+
+                                        </div>
+                                        <div class="anaContent-header-right">
+                                            <div class="anaContent-header-info">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="dot">
+                                                            <i class="fa-regular fa-bell"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="dot">
+                                                            <i class="fa-regular fa-message"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="../images/3x4.jpg" alt="">
+                                                        </a>
+                                                    </li>
+                                                    <li onclick="infoViewPortal()">
+                                                        <a href="#" class="info">
+                                                            <span>Aziz Amiraslanov</span>
+                                                            <i class="fa-solid fa-chevron-down"></i>
+                                                        </a>
+                                                    </li>
+
+                                                    <div class="info-section10">
+                                                        <div class="info-section-container">
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Profil
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        History
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Result
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Exam
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Settings
+                                                                    </a>
+                                                                </li>
+                                                                <li class="exitBtn10" onclick="exitPortal()">
+                                                                    <a href="#">
+                                                                        Exit
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portalContent-section">
+                                <div class="portalContent-section-container">
+                                    <div class="portalContent-section-row">
+                                        <div class="col-leftPortal">
+                                            <div class="col-leftPortal-icon">
+                                                <i class="fa-brands fa-angular"></i>
+                                            </div>
+                                            <h3 id="secHeaderPortal"></h3>
+                                        </div>
+                                        <div class="col-right">aaaaa</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="anaContent-news"></div>
+                            <div class="anaContent-main"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../js/app.js"></script>
+    <script src="../Fontawesome/all.js"></script>
+    <script src="../Bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" type="image/x-icon" href="images/FITAIR(solid).png">
+    <link href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&family=Poppins:wght@100;500&display=swap"
+        rel="stylesheet">
+    <title>Vedubox</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="entered-page">
+                <div class="logo">
+                    <img src="images/vedu_1.png" alt="">
+                </div>
+
+                <div class="admin-panel">
+                    <div class="admin-header">
+                        <label for="header">Log in to yor account</label>
+                    </div>
+                    <div class="admin-container">
+                        <div class="username">
+                            <input type="text" id="username" name="username" required placeholder="Username">
+                        </div>
+                        <div class="password">
+                            <input type="password" id="password" name="password" required placeholder="Password">
+                            <div id="showPsword">
+                                <span>Show Password</span>
+                                <input type="checkbox" onclick="passwordShow()">
+                            </div>
+                        </div>
+
+                        <div class="btn">
+                            <button type="submit" class="btn-hover color-9" id="submit">Log In</button>
+                        </div>
+                        
+                        <div class="register">
+                            <div class="btn2">
+                                <button type="submit" class="btn-hover color-9" id="submit2">Don't have an account! Sign
+                                    Up</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

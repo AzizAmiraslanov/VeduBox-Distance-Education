@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/signUp2.css">
+
+    <link rel="icon" type="image/x-icon" href="images/FITAIR(solid).png">
+    <link rel="stylesheet" href="../Fontawesome/all.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&family=Poppins:wght@100;500&display=swap"
+        rel="stylesheet">
+    <title>Vedubox</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+
+            <div class="signUp-page">
+                <div class="logo">
+                    <img src="../images/vedu_1.png" alt="">
+                </div>
+
+                <div class="admin-panel">
+
+                    <div class="admin-header">
+                        <label for="header">Sign Up</label>
+                    </div>
+
+                    <div class="signUp-container">
+                        <form action="./register.html">
+                            <div class="firstName">
+                                <input type="text" id="userName" name="userName" required placeholder="First Name">
+                            </div>
+
+                            <div class="lastName">
+                                <input type="text" id="lastName" name="lastName" required placeholder="Last Name">
+                            </div>
+
+                            <div class="userEmail">
+                                <div class="email">
+                                    <input type="text" id="email" name="email" required placeholder="Email">
+                                </div>
+                                <div class="confirmEmail">
+                                    <input type="text" id="confirmEmail" name="confirmEmail" required
+                                        placeholder="Confirm Email">
+                                </div>
+                            </div>
+                            <div class="password">
+
+                                <div class="psWord">
+                                    <input type="password" id="password" name="password" required
+                                        placeholder="Password">
+                                </div>
+
+                                <div class="con-psWord">
+                                    <input type="password" id="confirmPassword" name="confirmPassword" required
+                                        placeholder="Confirm Password">
+                                </div>
+                                <div class="ceck">
+                                    <div class="accept-term">
+                                        <input type="checkbox" id="checkbox" required>
+                                        <span>Accept Our Terms and Conditions</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btn">
+                                <button type="submit" class="btn-hover color-9" id="submit">Create Free Account</button>
+                            </div>
+                            <div class="logIn">
+                                <div class="logIn-first">
+                                    <p>Allready Have an Account?</p>
+                                </div>
+                                <div class="logIn-second">
+                                    <p>
+                                        <i class="fa-solid fa-angles-right"></i>
+                                        <i class="fa-solid fa-angles-right"></i>
+                                        <span id="btnLogIn">Log In Here</span>
+                                        <i class="fa-solid fa-angles-left"></i>
+                                        <i class="fa-solid fa-angles-left"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/signUp.js"></script>
+    <script src="../Fontawesome/all.js"></script>
+    <script src="../js/register.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(0, 212, 255, 1) 100%);
+}
+
+.row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signUp-page {
+    width: 40%;
+    height: 90%;
+    background-color: white;
+    border-radius: 5%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.signUp-page .logo {
+    width: 50%;
+    height: 7%;
+    position: relative;
+    left: 25%;
+    top: 6%;
+
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.admin-panel {
+    color: #18aaeb;
+    width: 80%;
+    height: 82%;
+    position: absolute;
+    top: 13%;
+    left: 10%;
+}
+
+.signUp-container {
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    left: 15%;
+    top: 10%;
+
+}
+
+
+.admin-panel .admin-header {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: static;
+    font-size: 32px;
+    color: #18aaeb;
+
+}
+
+.signUp-container {
+    width: 100%;
+    height: 90%;
+    position: static;
+}
+
+form {
+    width: 100%;
+    height: 100%;
+}
+
+.firstName {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstName input {
+    width: 80%;
+    height: 80%;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 1.2rem;
+    background: none;
+    outline: none;
+    color: #18aaeb;
+    transition: .5s ease-in-out;
+    border: 1px solid #18aaeb;
+    border-radius: 50px;
+
+}
+
+.lastName {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.lastName input {
+    width: 80%;
+    height: 80%;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 1.2rem;
+    background: none;
+    outline: none;
+    color: #18aaeb;
+    transition: .5s ease-in-out;
+    border: 1px solid #18aaeb;
+    border-radius: 50px;
+}
+
+.userEmail {
+    width: 100%;
+    height: 20%;
+
+}
+
+.email {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.confirmEmail {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+input::placeholder {
+    color: #18aceb54;
+
+}
+
+.email input {
+    width: 80%;
+    height: 80%;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 1.2rem;
+    background: none;
+    outline: none;
+    color: #18aaeb;
+    transition: .5s ease-in-out;
+    border: 1px solid #18aaeb;
+    border-radius: 50px;
+}
+
+.confirmEmail input {
+    width: 80%;
+    height: 80%;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 1.2rem;
+    background: none;
+    outline: none;
+    color: #18aaeb;
+    transition: .5s ease-in-out;
+    border: 1px solid #18aaeb;
+    border-radius: 50px;
+}
+
+
+.password {
+    width: 100%;
+    height: 35%;
+}
+
+.psWord {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.psWord input {
+    width: 80%;
+    height: 80%;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 1.2rem;
+    background: none;
+    outline: none;
+    color: #18aaeb;
+    transition: .5s ease-in-out;
+    border: 1px solid #18aaeb;
+    border-radius: 50px;
+}
+
+.con-psWord {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.con-psWord input {
+    width: 80%;
+    height: 80%;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 1.2rem;
+    background: none;
+    outline: none;
+    color: #18aaeb;
+    transition: .5s ease-in-out;
+    border: 1px solid #18aaeb;
+    border-radius: 50px;
+}
+
+
+
+
+.ceck {
+    width: 80%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.accept-term {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accept-term input {
+    width: 5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accept-term span {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn {
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+
+.btn button {
+    width: 100%;
+    background-color: #18aaeb;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: .2s ease-in-out;
+    border-radius: 5px;
+}
+
+.btn button:hover {
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    font-size: 22px;
+    background-color: #18aaeb;
+}
+
+input {
+    text-align: center;
+}
+
+
+
+input:hover {
+    cursor: pointer;
+}
+
+.logIn {
+    width: 90%;
+    height: 10%;
+    position: relative;
+    left: 5%;
+    margin-top: 5%;
+}
+
+
+.logIn-first {
+    width: 100%;
+    height: 40%;
+    text-align: center;
+}
+
+.logIn-second {
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    font-size: 22px;
+    transition: .3s ease-in-out;
+
+}
+.logIn-second p{
+    transition: .3s ease-in-out;
+
+}
+.logIn-second p:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+
+/* Button hover code Area start in the Here */
+
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    height: 45px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-9 {
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+/* Button hover code Area End of the Here */

@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.registr-container {
+    width: 100%;
+    height: 100vh;
+    background: #18aaeb;
+}
+
+.registr-row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registr-entered-page {
+    width: 40%;
+    height: 55%;
+    background-color: white;
+
+    border-radius: 5%;
+    position: relative;
+}
+
+.registr-entered-page .registr-logo {
+    width: 40%;
+    height: 10%;
+    position: relative;
+    left: 30%;
+    top: 10%;
+
+}
+
+.registr-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.registr-admin-panel {
+    color: #18aaeb;
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    left: 15%;
+    top: 30%;
+
+}
+
+
+
+.registr-admin-header {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: 'Palette Mosaic', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.registr-admin-container span{
+    width: 100%;
+    font-size: 1.6rem;
+    text-align: center;
+   display: flex;
+   align-items: center;
+
+
+}
+
+
